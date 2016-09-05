@@ -1,0 +1,66 @@
+@charset "utf-8";
+.more-view{
+	width: 100%;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+}
+.more-view a.adv{
+	width: 100%;
+	height: 2rem;
+	border-bottom: solid .04rem #ffea00;
+	display: block;
+	margin-bottom: .2rem;
+}
+.more-nav{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9;
+	background: #191919;
+}
+.more-nav a{
+	padding-left: 1.26rem;
+	box-sizing: border-box;
+	display: block;
+	font: .3rem/1rem "微软雅黑";
+	color: #ffd43d;
+	border-right: solid 1px #000;
+	position: relative;
+}
+.more-nav a i{
+	width: .32rem;
+	height: .32rem;
+	display: inline-block;
+	position: absolute;
+	background: url(images/icons.png) no-repeat;
+	background-size: 2rem 1rem;
+	top: .34rem;
+	left: .8rem;
+}
+.more-nav a:nth-child(1) i{
+	background-position: -.3rem -.58rem;
+}
+.more-nav a:nth-child(2) i{
+	background-position: -1.35rem -.59rem;
+}
+.more-nav a:nth-child(1) i.cur{
+	background-position: -.3rem -.09rem;
+}
+.more-nav a:nth-child(2) i.cur{
+	background-position: -1.35rem -.08rem;
+}
+/*rule*/
+.rule-view{
+	padding: .4rem .3rem;
+}
+.ruleF1{
+	font: bold .24rem/.4rem "微软雅黑";
+	color: #ffea00;
+	margin-bottom: .1rem;
+}
+.ruleF2{
+	font: .24rem/.4rem "微软雅黑";
+	color: #fff;
+}
